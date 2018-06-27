@@ -11,7 +11,6 @@
 @interface SettingsViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *numLabel;
 @property (weak, nonatomic) IBOutlet UISlider *numSlider;
-
 @end
 
 @implementation SettingsViewController

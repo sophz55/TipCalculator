@@ -63,7 +63,7 @@
     if (numPeople == NULL) {
         numPeople = 1;
     }
-    
+
     double perTotal = total / numPeople;
     
     self.tipLabel.text = [NSString stringWithFormat:@"$%.2f", tip];
