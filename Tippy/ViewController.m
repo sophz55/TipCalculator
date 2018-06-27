@@ -27,6 +27,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setDouble:1 forKey:@"default_num_people"];
+    [defaults synchronize];
 }
 
 
@@ -51,8 +54,8 @@
     } else {
         [self.sliderView setHidden:NO];
         tipPercentage = self.tipSlider.value;
-        int percent = tipPercentage * 100;
-        self.percentLabel.text = [NSString stringWithFormat:@"%d", percent];
+        double percent = tipPercentage * 100;
+        self.percentLabel.text = [NSString stringWithFormat:@"%.2f", percent];
     }
     
     double tip = tipPercentage * bill;
@@ -60,9 +63,6 @@
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     int numPeople = [defaults integerForKey:@"default_num_people"];
-    if (numPeople == NULL) {
-        numPeople = 1;
-    }
 
     double perTotal = total / numPeople;
     

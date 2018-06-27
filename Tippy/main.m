@@ -1,5 +1,4 @@
-//
-//  main.m
+////  main.m
 //  Tippy
 //
 //  Created by Sophia Zheng on 6/26/18.
