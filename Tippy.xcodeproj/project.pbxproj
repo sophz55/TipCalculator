@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F37FCD5120E2F97500DE55B0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F37FCD5020E2F97500DE55B0 /* SettingsViewController.m */; };
 		F3A89F3920E2D6DC00A4BFFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A89F3820E2D6DC00A4BFFE /* AppDelegate.m */; };
 		F3A89F3C20E2D6DC00A4BFFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A89F3B20E2D6DC00A4BFFE /* ViewController.m */; };
 		F3A89F3F20E2D6DC00A4BFFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A89F3D20E2D6DC00A4BFFE /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F37FCD4F20E2F97500DE55B0 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../../Tippy/Tippy/SettingsViewController.h; sourceTree = "<group>"; };
+		F37FCD5020E2F97500DE55B0 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../../Tippy/Tippy/SettingsViewController.m; sourceTree = "<group>"; };
 		F3A89F3420E2D6DC00A4BFFE /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A89F3720E2D6DC00A4BFFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F3A89F3820E2D6DC00A4BFFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				F3A89F3A20E2D6DC00A4BFFE /* ViewController.h */,
 				F3A89F3B20E2D6DC00A4BFFE /* ViewController.m */,
 				F3A89F3D20E2D6DC00A4BFFE /* Main.storyboard */,
+				F37FCD4F20E2F97500DE55B0 /* SettingsViewController.h */,
+				F37FCD5020E2F97500DE55B0 /* SettingsViewController.m */,
 				F3A89F4020E2D6DE00A4BFFE /* Assets.xcassets */,
 				F3A89F4220E2D6DE00A4BFFE /* LaunchScreen.storyboard */,
 				F3A89F4520E2D6DE00A4BFFE /* Info.plist */,
@@ -265,6 +270,7 @@
 				F3A89F3C20E2D6DC00A4BFFE /* ViewController.m in Sources */,
 				F3A89F4720E2D6DE00A4BFFE /* main.m in Sources */,
 				F3A89F3920E2D6DC00A4BFFE /* AppDelegate.m in Sources */,
+				F37FCD5120E2F97500DE55B0 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
